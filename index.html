@@ -1,55 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>JS</title>
-</head>
-<body>
-    <h1>JS To-Do</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+    <title>To-Do App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>JS To-Do</h1>
 
-    <div class="adauga_obiective">
+      <div class="adauga_obiective">
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="Obiectiv" id="obiectiv">
-            <br>
-            <input type="number" class="form-control" placeholder="Prioritate" id="prioritate">
-            <br>
-            <button class="btn btn-primary" onclick="adaugaObiectiv()">Adauga</button>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Objectiv"
+            id="obiectiv"
+          />
+          <br />
+          <input
+            type="number"
+            class="form-control"
+            placeholder="Priority"
+            id="prioritate"
+          />
+          <br />
+          <button class="add_button" onclick="adaugaObiectiv()">Add</button>
         </div>
+      </div>
     </div>
 
     <div class="obiective">
-        <div>
-            <div class="card">
-                <div class="card-header">
-                  <h1>Prioritate 1</h1>
-                </div>
-                <ul class="list-group list-group-flush" id="prioritate_1"></ul>
-              </div>
+      <div>
+        <div class="card">
+          <div class="card-header">
+            <h1>Priority 1</h1>
+          </div>
+          <ul class="list-group list-group-flush" id="prioritate_1"></ul>
         </div>
-        <div>
-            <div class="card">
-                <div class="card-header">
-                    <h1>Prioritate 2</h1>
-                </div>
-                <ul class="list-group list-group-flush" id="prioritate_2"></ul>
-              </div>
+      </div>
+      <div>
+        <div class="card">
+          <div class="card-header">
+            <h1>Priority 2</h1>
+          </div>
+          <ul class="list-group list-group-flush" id="prioritate_2"></ul>
         </div>
-        <div>
-            <div class="card">
-                <div class="card-header">
-                    <h1>Prioritate 3</h1>
-                </div>
-                <ul class="list-group list-group-flush" id="prioritate_3"></ul>
-              </div>
+      </div>
+      <div>
+        <div class="card">
+          <div class="card-header">
+            <h1>Priority 3</h1>
+          </div>
+          <ul class="list-group list-group-flush" id="prioritate_3"></ul>
         </div>
+      </div>
     </div>
-
-    <script src="main.js"></script>
-
-</body>
+  </body>
 </html>

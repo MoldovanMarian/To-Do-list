@@ -1,29 +1,53 @@
-.adauga_obiective{
-    margin: 35px;
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fcfcfc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-h1{
-    text-align: center;
-    margin-top: 25px;
+.add_button {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 20px 0;
+  width: 100%;
+  font-size: 18px;
 }
 
-.obiective{
-    margin: 25px;
+.adauga_obiective {
+  margin: 35px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin: 50px 0;
+  color: #444444;
+}
+
+.obiective {
+  margin: 25px;
 }
 
 .obiective > div {
-    width: 33.33%;
-    float: left;
-    margin: 0 auto;
-    padding: 10px;
+  width: 33.33%;
+  float: left;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 .obiective > div li:hover {
-    background-color: #6c757d;
-    cursor: pointer;
+  background-color: #6c757d;
+  cursor: pointer;
 }
 
 .obiective > div h1 {
-    text-align: center;
-    font-size: 24px;
+  text-align: center;
+  font-size: 24px;
 }
