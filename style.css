@@ -1,0 +1,29 @@
+.adauga_obiective{
+    margin: 35px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.obiective{
+    margin: 25px;
+}
+
+.obiective > div {
+    width: 33.33%;
+    float: left;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.obiective > div li:hover {
+    background-color: #6c757d;
+    cursor: pointer;
+}
+
+.obiective > div h1 {
+    text-align: center;
+    font-size: 24px;
+}
